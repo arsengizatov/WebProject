@@ -1,0 +1,283 @@
+body {
+    font-family: 'Montserrat', Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+  }
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    background: url(header.jpg) no-repeat center top / cover;
+}
+
+.container {
+    width: 865px;
+    margin: 0px auto;
+}
+
+div.main {
+    padding-top: 122px;
+    text-align: center;
+}
+
+.main img {
+    width: 129px;
+    height: 131px;
+    opacity: 0.8;
+}
+
+.main .header_text {
+    padding-top: 58px;
+    text-align: center;
+    padding-bottom: 247px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1px;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.245em;
+    -webkit-text-stroke: 2px white;
+
+    color: rgba(255, 255, 255, 0.9);
+    text-shadow: 0px 4px 4px black;
+}
+
+header .rectangle {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* height: 56px; */
+    background-color: white;
+    opacity: 0.79;
+}
+
+.rectangle .navigators {
+    text-align: center;
+    margin:5px auto;
+} 
+
+.navs {
+    padding-top: 13px;
+    display: block;
+}
+
+.navs li {
+    display: inline;
+    margin-right: 86px;
+}
+
+.navs li a {
+    font-family: Helvetica;
+    color: #6B0000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20%;
+    text-decoration: none;
+}
+
+.navs li a:hover {
+    text-shadow: 0px 1px 1px #6B0000;
+}
+
+
+/* uw nukte */
+
+.mobile-tab, #burg, #mobile {
+    display: none;
+}
+
+
+
+section.sections {
+    background: url(images/beans.jpg) no-repeat center top / cover;
+    background-position-y: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+section.sections .welcome {
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+section.sections .welcome .Home {
+    background-color: white;
+    min-width: 426px;
+    min-height: 355px;
+}   
+
+.textDecoration {
+    padding-top: 38px;
+    padding-bottom: 5px;
+}
+
+.textDecoration h2 {
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 160%;
+    letter-spacing: 0.04em;
+    color: #5F0038;
+}
+
+.textDescription {
+    margin: 0px auto;
+    width: 334px;
+}
+
+.textDescription p {
+    font-family: 'Monda', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 14px;
+    line-height: 181.5%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    opacity: 0.71;
+}
+
+
+section.sections1 {
+    background: url(images/pizza1.jpg) no-repeat center top / cover;
+    text-align: center;
+}
+
+section.section1 .controlling {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+section.sections1 .order {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+section.sections1 .order .Kurier {
+    background-color: white;
+    min-width: 426px;
+    min-height: 355px;
+    order: 2;
+}   
+
+section.sections1 .orderBTN {
+    margin-top: 50px;
+    margin-bottom: 48px;
+}
+
+.orderBTN button {
+    width: 298px;
+    height: 44px;
+    background: rgba(225, 228, 255, 0.87);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 0px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #000000;
+    -webkit-text-stroke: 0.5px black;
+    margin-bottom: 48px;
+}
+
+div.uslugs {
+    width: 100%;
+    position: relative;
+}
+
+.polygons {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+#head {
+    margin: 0px auto;
+    margin-top: 71px;
+}
+
+#head h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 17%;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    color: rgba(86, 39, 19, 0.82);
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.225em;
+}
+
+#boxes {
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#boxes .box {
+    background: url(images/box.png) no-repeat 0 0 / cover;
+    width: 315px;
+    height: 380px;
+    margin: 0px 20px;
+}
+
+.box .texts {
+    width: 290;
+    text-align: center;
+    margin: 70px auto;
+}
+
+.texts h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 181.5%;
+    letter-spacing: 0.11em;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.texts p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 130.4%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.86);
+    opacity: 0.8;
+}

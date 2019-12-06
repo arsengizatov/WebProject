@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Eat && Chat</title>
+
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        
+        <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 1200px)" href="setmenu.css" />
+        <link rel="stylesheet" type="text/css" media="screen and (max-device-width: 500px)" href="setServices.css" />
+
+    </head>
+    <body id="body">
+        <header>
+            <div class="container clearfix">
+                <div class="main">
+                    <img src="images/logo.png" alt="eat && chat" id="logo">
+                    <div class="header_text">
+                        <h1 class="mainText">Eat && chat</h1>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="rectangle">
+                <div class="navigators container">
+                    <nav id="desktop">
+                        <div class="nav-wrapper">
+                            <div class="container">
+                                <ul class="navs">
+                                    <li><a href="#" onclick="slowScroll('#body')">Главная</a></li>
+                                    <li><a href="#" onclick="slowScroll('.carouselling')">Меню</a></li>
+                                    <li><a href="#" onclick="slowScroll('#uslugs')">Услуги</a></li>
+                                    <li><a href="#" onclick="slowScroll('#welcome')">О нас</a></li>
+                                    <li><a href="#" onclick="slowScroll('#contact')">Контакты</a></li>
+                                </ul>
+                            </div>
+                        </div>             
+                    </nav>   
+                </div>
+                
+                <div id="burg">
+                    <a href="#">
+                        <span class="bar" id="top"></span>
+                        <span class="bar" id="middle"></span>
+                        <span class="bar" id="bottom"></span>
+                    </a>
+                </div>
+            
+                <div class="mobile-tab">
+                    <nav id="mobile">
+                        <ul>
+                                <li><a href="#" onclick="slowScroll('#body')">Главная</a></li>
+                                <li><a href="#" onclick="slowScroll('.carouselling')">Меню</a></li>
+                                <li><a href="#" onclick="slowScroll('#uslugs')">Услуги</a></li>
+                                <li><a href="#" onclick="slowScroll('#welcome')">О нас</a></li>
+                                <li><a href="#" onclick="slowScroll('#contact')">Контакты</a></li>
+                        </ul>           
+                    </nav>   
+                </div>
+            </div>
+        </header>
+
+        <section class="sections" id="welcome">
+            <div class="welcome container">
+                <div class="Home">
+                    <div class="textDecoration">
+                        <h2>Добро пожаловать!</h2>
+                    </div>
+                    <div class="textDescription">
+                        <p>Вот уже более 2 лет мы делаем 
+                            вкусную продукцию и обслуживаем клиетов. 
+                            Если вам нужно уютное место для проведение 
+                            мероприятий и ивентов вместе друзьями или
+                            компанией, тогда мы будем рады вам в нашем
+                            заведений.</p>
+                    </div>
+                </div>
+                <div class="flexSecond" style="width: 426px; height: 355px;"></div>
+            </div>
+        </section>
+            
+        <section class="sections1">
+            <div class="controlling">
+                <div class="order container">
+                    <div class="flexSecond" style="width: 426px; height: 355px; order: 1;"></div>
+                    <div class="Kurier">
+                        <div class="textDecoration">
+                            <h2>Курьерская служба</h2>
+                        </div>
+                        <div class="textDescription">
+                            <p>Курьерская служба предлагает комплексные 
+                                услуги доставки для клиентов. Отлаженная 
+                                схема работы и надежные ресурсы позволяют 
+                                нам быстро и качественно доставлять ваши
+                                заказы  по всей территории город Алматы.</p>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+            
+
+            <div class="orderBTN container">
+                <button class="btn">заказать еду</button>
+            </div>
+            
+            <div class="uslugs" id="uslugs">
+                <div class="opacity" style="opacity:0.7; background-color: white; height: 600px;">
+                </div>
+                <div class="polygons">
+                    <div id="head">
+                        <h2>Услуги</h2> <br>
+                        <img src="images/line.png" alt="">
+                    </div>
+                    <div id="boxes">
+                        <div class="box">
+                            <div class="texts">
+                                <h3>Доставка еды</h3>
+                                <p>Отборные ингредиенты. <br> 
+                                    Бесплатная доставка. <br>
+                                    Отличный сервис. <br>
+                                    Заказывайте! Выбирайте еду и <br> 
+                                    Оформляйте Заказ. В течение <br>
+                                    нескольких минут блюдо <br> 
+                                    будет у Вас на столе. <br> 
+                                    Приятные цены. <br>
+                                    Круглосуточно. Без выходных. <br>
+                                        Доставим быстро.</p>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="texts">
+                                    <h3>Мероприятия <br> && банкеты</h3>
+                                    <p>Проведите мер оприятия или <br> 
+                                        банкеты от 50 до 180 персон. <br> 
+                                        Национальная, Восточная, <br> 
+                                        Европейская Кухня. 4 Пакета <br> 
+                                        на выбор. Если хотите устроит <br> 
+                                        день рождение, коопоратив <br> 
+                                        мы готовы вас обслужит  </p>
+                                </div>
+                        </div>
+                        <div class="box">
+                            <div class="texts">
+                                <h3 style="padding-top: 15px;">Выездной повар</h3>
+                                <p style="padding-top: 20px;">Закажите услугу повар на дом. <br> Любое мероприятие у Вас <br> дома, банкет, юбилеи, <br> торжество. Восточная, <br> европейская кухня.</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="carouselling" style="position: relative;">
+            <div id="head">
+                <h2 style="color: #145B03;">Главные в меню</h2> <br>
+                <img src="images/line.png" alt="" width="500" style="padding-bottom: 30px;">
+            </div>
+            <div class="container sizing">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                    
+                  </ol>
+              
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner">
+              
+                    <div class="item active">
+                      <div class="forimg">
+                            <img src="images/caption.jpg" alt="Los Angeles" style="width:100%; height: 600px;">
+                      </div>
+                      
+                      <div class="carousel-caption">
+                        <h3>Манты</h3>
+                        <p>Традиционная казахская еда</p>
+                      </div>
+                    </div>
+              
+                    <div class="item">
+                        <div class="forimg">
+                                <img src="images/soup.jpg" alt="Chicago" style="width:100%; height: 600px;">
+                        </div>
+                     
+                      <div class="carousel-caption">
+                        <h3>Супы</h3>
+                        <p>"Очень вкусные финский рыбный суп и куриная котлета с грибным соусом!</p>
+                      </div>
+                    </div>
+                  
+                    <div class="item">
+                        <div class="forimg">
+                                <img src="images/beans.jpg" alt="New York" style="width:100%; height: 600px;">
+                        </div>
+                      
+                      <div class="carousel-caption">
+                        <h3>Fast Food</h3>
+                        <p></p>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="forimg">
+                            <iframe style="width:100%; height: 600px;"  src="https://www.youtube.com/embed/rhj0BHlKBSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        
+                        <div class="carousel-caption">
+                        <h3>Манты</h3>
+                        </div>
+                    </div>
+                
+                    <div class="item">
+                        <div class="forimg">
+                            <iframe style="width:100%; height: 600px;"  src="https://www.youtube.com/embed/HELaw9RTAcY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        
+                        <div class="carousel-caption">
+                        <h3>Супы</h3>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="forimg">
+                                <iframe style="width:100%; height: 600px;" src="https://www.youtube.com/embed/W-NRNWLvIHk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        
+                        <div class="carousel-caption">
+                        <h3>Fast Foods</h3>
+                        </div>
+                    </div>
+                  </div>
+              
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+        </section>
+
+        <section id="contact">
+
+            <div id="Connect">
+                <h2 style="color: #145B03;">Свяжитесь с нами</h2> <br>
+            </div>
+
+            <div class="container contactUs">
+                <div class="map"><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1953.0986818794622!2d76.66779212690051!3d43.20776751715657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38834f7675d8a6c3%3A0x7b7d14aec270c056!2z0KPQvdC40LLQtdGA0YHQuNGC0LXRgiDQodGD0LvQtdC50LzQsNC9INCU0LXQvNC40YDQtdC70Y8!5e0!3m2!1sru!2skz!4v1575538100036!5m2!1sru!2skz" width="550" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+
+                <div class="inputs">
+                    <!--Grid column-->
+                    <div class="col-lg-10 col-md-12">
+                        <!-- Form contact -->
+                        <form class="p-5 grey-text">
+                        <div class="md-form form-sm"> <i class="fas fa-user prefix"></i>
+                            <label for="form3">Имя</label>
+                            <input type="text" id="form3" class="form-control form-control-sm">
+                            
+                        </div>
+                        <div class="md-form form-sm"> <i class="fas fa-envelope prefix"></i>
+                            <label for="form2">Почта</label>
+                            <input type="email" id="form2" class="form-control form-control-sm" required>
+                            
+                        </div>
+                        <div class="md-form form-sm"> <i class="fas fa-tag prefix"></i>
+                            <label for="form34">Тема</label>
+                            <input type="text" id="form32" class="form-control form-control-sm">
+                            
+                        </div>
+                        <div class="md-form form-sm"> <i class="fas fa-pencil-alt prefix"></i>
+                            <label for="form8">Ваше сообщение</label>
+                            <textarea type="text" id="form8" class="md-textarea form-control form-control-sm" rows="4"></textarea>
+                            
+                        </div>
+                        <div class="text-center mt-4" style="padding: 10px 0px;">
+                            <button class="btn btn-primary">Отправить <i class="far fa-paper-planeml-1"></i></button>
+                        </div>
+                        </form>
+                        <!-- Form contact -->
+                    </div>
+                </div>
+            </div>          
+        </section>
+
+        <footer>
+            <div class="container" style="text-align: center;">
+                <h4>Контакты</h4>
+                <div class="links">
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="20" height="20"
+                        viewBox="0 0 26 26"
+                        style=" fill:white;">
+                        <path d="M 7.546875 0 C 3.390625 0 0 3.390625 0 7.546875 L 0 18.453125 C 0 22.609375 3.390625 26 7.546875 26 L 18.453125 26 C 22.609375 26 26 22.609375 26 18.453125 L 26 7.546875 C 26 3.390625 22.609375 0 18.453125 0 Z M 7.546875 2 L 18.453125 2 C 21.527344 2 24 4.46875 24 7.546875 L 24 18.453125 C 24 21.527344 21.53125 24 18.453125 24 L 7.546875 24 C 4.472656 24 2 21.53125 2 18.453125 L 2 7.546875 C 2 4.472656 4.46875 2 7.546875 2 Z M 20.5 4 C 19.671875 4 19 4.671875 19 5.5 C 19 6.328125 19.671875 7 20.5 7 C 21.328125 7 22 6.328125 22 5.5 C 22 4.671875 21.328125 4 20.5 4 Z M 13 6 C 9.144531 6 6 9.144531 6 13 C 6 16.855469 9.144531 20 13 20 C 16.855469 20 20 16.855469 20 13 C 20 9.144531 16.855469 6 13 6 Z M 13 8 C 15.773438 8 18 10.226563 18 13 C 18 15.773438 15.773438 18 13 18 C 10.226563 18 8 15.773438 8 13 C 8 10.226563 10.226563 8 13 8 Z"></path></svg></a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="24" height="24"
+                        viewBox="0 0 24 24"
+                        style=" fill:white;">
+                        <path d="M 12 2 C 6.4889971 2 2 6.4889971 2 12 C 2 17.511003 6.4889971 22 12 22 C 17.511003 22 22 17.511003 22 12 C 22 6.4889971 17.511003 2 12 2 z M 12 4 C 16.430123 4 20 7.5698774 20 12 C 20 16.014467 17.065322 19.313017 13.21875 19.898438 L 13.21875 14.384766 L 15.546875 14.384766 L 15.912109 12.019531 L 13.21875 12.019531 L 13.21875 10.726562 C 13.21875 9.7435625 13.538984 8.8710938 14.458984 8.8710938 L 15.935547 8.8710938 L 15.935547 6.8066406 C 15.675547 6.7716406 15.126844 6.6953125 14.089844 6.6953125 C 11.923844 6.6953125 10.654297 7.8393125 10.654297 10.445312 L 10.654297 12.019531 L 8.4277344 12.019531 L 8.4277344 14.384766 L 10.654297 14.384766 L 10.654297 19.878906 C 6.8702905 19.240845 4 15.970237 4 12 C 4 7.5698774 7.5698774 4 12 4 z"></path></svg></a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                        width="24" height="24"
+                        viewBox="0 0 50 50"
+                        style=" fill:white;">    
+                        <path d="M25,2C12.318,2,2,12.318,2,25s10.318,23,23,23c12.683,0,23-10.318,23-23S37.683,2,25,2z M34.973,29.535 c2.237,1.986,2.702,2.695,2.778,2.816C38.678,33.821,36.723,34,36.723,34h-4.12c0,0-1.003,0.011-1.86-0.557 c-1.397-0.915-2.86-2.689-3.888-2.381C25.992,31.32,26,32.486,26,33.483C26,33.84,25.693,34,25,34s-0.981,0-1.288,0 c-2.257,0-4.706-0.76-7.149-3.313c-3.456-3.609-6.487-10.879-6.487-10.879s-0.179-0.366,0.016-0.589 c0.221-0.25,0.822-0.218,0.822-0.218L14.909,19c0,0,0.376,0.071,0.646,0.261c0.223,0.156,0.347,0.454,0.347,0.454 s0.671,2.216,1.526,3.629c1.67,2.758,2.447,2.828,3.014,2.531C21.27,25.445,21,22.513,21,22.513s0.037-1.259-0.395-1.82 c-0.333-0.434-0.97-0.665-1.248-0.701c-0.225-0.029,0.151-0.423,0.63-0.648C20.627,19.059,21.498,18.986,23,19 c1.169,0.011,1.506,0.081,1.962,0.186C26.341,19.504,26,20.343,26,23.289c0,0.944-0.13,2.271,0.582,2.711 c0.307,0.19,1.359,0.422,3.231-2.618c0.889-1.442,1.596-3.834,1.596-3.834s0.146-0.263,0.373-0.393 c0.232-0.133,0.225-0.13,0.543-0.13S35.832,19,36.532,19c0.699,0,1.355-0.008,1.468,0.402c0.162,0.589-0.516,2.607-2.234,4.797 C32.943,27.793,32.63,27.457,34.973,29.535z"></path></svg></a>
+                </div>
+                <div class="texts">
+                    <p>+77757008463   +77079782676</p>
+                    <p>Алматинский область, Абылай Хан 1/1</p>
+                    <p>©Arsen Gizatov 2019-2020</p>
+                </div>
+                
+            </div>
+        </footer>
+
+         <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
+
+    <script type="text/javascript" src="main.js"></script>
+
+</html>

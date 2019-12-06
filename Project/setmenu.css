@@ -59,3 +59,9 @@ span {
 .mobile-tab li a:hover {
     text-decoration: none;
 }
+
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

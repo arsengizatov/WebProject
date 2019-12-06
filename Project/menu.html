@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Menu</title>
+        <title>Eat && Chat</title>
 
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        
+        <link rel="stylesheet" href="menu.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -13,33 +17,45 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
     </head>
-
     <body>
+        <header>
+            <div class="toolbar">
+                <div class="forNav container">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt="eat"></a>
+                    </div>
 
-        <div class="container">
-            <nav class="navbar navbar-light navbar-expand-lg bg-light">
-                <a class="navbar-brand">
-                    Logo Text
-                </a>
-                <button type="button" class="navbar -toggler" data-toggle="collapse" data-target="#my-nav">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span> 
-                </button>
-                <div id="my-nav" class="collapse navbar-collapse">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active"><a class="nav-link" href="">Главная</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Меню</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Услуги</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">О нас</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Контакты</a></li>
+                    <ul class="headerMenu">
+                        <li><a href="">Главная</a></li>
+                        <li><a href="" class="active">Меню</a></li>
+                        <li><a href="">Услуги</a></li>
+                        <li><a href="">О нас</a></li>
+                        <li><a href="">Контакты</a></li>    
                     </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
 
-        <!-- jQuery -->
+            <header class="header">
+                <div class="searching container">
+                    <form action="" class="search-bar">
+                        <div class="text">
+                            <a href="menu.html" class="search-bar__logo">Еда</a>
+                        </div>
+                        <div class="searchInputText">
+                            <input type="search" maxlength="250" placeholder="Поиск меню" class="search-bar__input">
+                        </div>
+                        <div class="search-bar__img">
+                            <span class="icon_small_search"></span>
+                        </div>
+                    </form>
+                </div>
+            </header>
+        </header>
+
+         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     </body>
+
 </html>
